@@ -38,7 +38,7 @@ export default function Portfolio() {
     <div className="bg-white dark:bg-dark text-gray-900 dark:text-base">
       <div className="container mx-auto p-6 min-h-screen">
         <div className="flex justify-between items-center mb-8">
-          <h1 className="text-4xl font-bold text-gradient">Malihe Asadi</h1>
+          <h1 className="text-4xl font-bold text-gradient">About Me</h1>
           <Button onClick={toggleTheme} variant="outline">
             {darkMode ? <Sun size={24} /> : <Moon size={24} />}
           </Button>
